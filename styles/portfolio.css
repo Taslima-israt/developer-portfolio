@@ -1,35 +1,50 @@
-nav{
+nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-body{
-    font-family: 'Lato',sans-serif;
+
+body {
+    font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
-.portfolio title{
+.portfolio-title {
     color: black;
     font size: 45px;
     font: weight 800px;
-    line-height:normal;
-    font style:normal;
+    line-height: normal;
+    font style: normal;
 }
-.text-primary{
-    color: #FD6E0A
-.btn primary{
-    border-radius: 5px;
-    background:#FDEF0A
-}
-nav>ul{
 
+.text-primary {
+    color: #FD6E0A
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+
+}
+
+nav>ul {
     display: flex;
+    align-items: center;
+}
+
+nav li {
     list-style: none;
-    nav li{
-        list-style: none;
-        margin-right: 50px;
-    }
-    nav a{
-        text-decoration: none;
-            color:#FD6E0A ;
-        }
-    }
+    margin-right: 50px;
+    ;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747q;
 }
